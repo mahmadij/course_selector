@@ -1,0 +1,17 @@
+h1{
+background-color: blue;
+color: white;
+}
+
+table{
+    border:1px solid black;
+
+}
+
+th{
+    background-color:coral;
+    color:black;
+}
+td{
+    border:1px solid black;
+}
