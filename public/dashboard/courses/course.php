@@ -5,13 +5,13 @@ $name=isset($_GET['name']) ? $_GET['name'] : '';
 $code=$_GET['code'] ?? '';
 $format=$_GET['format'] ?? '';
 ?>
-
+<?php $title=$_GET['name'] ?? 'Please Enter new Course'  ?>
 
 <?php include(COMMON_PATH.'/header.php'); ?>
 <?php include(COMMON_PATH.'/navigation.php'); ?>
 <div id="content">
 <div class="actions">
-    <a href="" class="actions">Create New Course</a>
+    <button>Create New Course</button>
 </div>
 
 <body>
