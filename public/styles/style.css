@@ -1,0 +1,97 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.container {
+    min-width: 900px;
+    height:150px;
+}
+
+#main {
+    padding: 10px;
+    margin: 0 25px 0 210px;
+}
+
+table{
+    border:1px solid black;
+
+}
+
+th{
+    background-color:coral;
+    color:black;
+}
+td{
+    border:1px solid black;
+}
+
+input{
+    margin:10px;
+    padding: 5px;
+
+}
+
+#navigation{
+    /* overflow:auto; */
+    height: 100%;
+    border: solid 1px black;
+    width:200px;
+    background-color: #f1f1f1;
+    margin:0;
+    padding:0;
+    left:15px;
+    display:block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 150; /* Stay at the top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+#navigation a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    border:1px solid black;
+}
+
+  /* Active/current link */
+#navigation a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+  /* Links on mouse-over */
+#navigation a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.pageheader{
+    left:0;
+    float:left;
+}
+header p{
+    float:right;
+    text-align: right;
+    top:0;
+    right:0;
+    position:absolute;
+    margin-top:75px;
+    margin-right:50px;
+}
+
+footer{
+    bottom:0;
+    position: absolute;
+}

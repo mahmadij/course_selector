@@ -14,7 +14,6 @@ $format=$_GET['format'] ?? '';
     <button>Create New Course</button>
 </div>
 
-<body>
     <div class="content">
         <form action="">
             ID: <input type="text" id="id" value="<?php echo $id ?>"/><br/>
@@ -24,8 +23,5 @@ $format=$_GET['format'] ?? '';
             <input type="submit" value="Add/Edit"/>
         </form>
     </div>
-</body>
-
-
 
 <?php include(COMMON_PATH.'/footer.php'); ?>

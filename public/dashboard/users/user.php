@@ -13,7 +13,6 @@ $year=$_GET['year'] ?? '';
 <div class="actions">
     <button>Create New Course</button>
 </div>
-<body>
     <div id="content">
         <form action="">
             Name: <input type="text" value="<?php echo $name ?>"/><br/>
@@ -22,7 +21,5 @@ $year=$_GET['year'] ?? '';
             Year <input type="text" value="<?php echo $year ?>"/><br/>
         </form>
     </div>
-</body>
-
 
 <?php include(COMMON_PATH.'/footer.php'); ?>
